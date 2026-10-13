@@ -1,0 +1,32 @@
+{
+  "info": {
+    "_postman_id": "220ad176-95f6-49a2-a404-2b227a207b7f",
+    "name": "monobank_api_Maliukh",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58926275",
+    "_collection_link": "https://go.postman.co/collection/58926275-220ad176-95f6-49a2-a404-2b227a207b7f?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "currency_rates",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.monobank.ua/bank/currency",
+          "protocol": "https",
+          "host": [
+            "api",
+            "monobank",
+            "ua"
+          ],
+          "path": [
+            "bank",
+            "currency"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
